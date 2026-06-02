@@ -36,13 +36,32 @@ This project combines multispectral sensing, environmental monitoring, and machi
     
 # Download and Run
 Ready-to-Use Application
-
 Download:
 Leaf Monitoring App v1.0 from the Releases section.
-
 Steps:
 Download dist.zip
 Extract the archive
 Run:
 leaf_monitoring.exe 
 No Python installation required.
+
+# Desktop Application
+input:
+Single Sample Prediction
+Users can manually enter spectral values:
+415 nm
+445 nm
+480 nm
+515 nm
+555 nm
+590 nm
+630 nm
+680 nm
+Batch Prediction
+Users can upload Excel files for batch analysis.
+
+Outputs include:
+Predicted labels
+Recommended actions
+Exportable results
+Recommended Actions
