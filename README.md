@@ -1,2 +1,48 @@
 # Low-cost-plant-spectral-sensing-system
-BEng Individual Project - Leaf health classification using spectral sensing and machine learning
+A low-cost, non-invasive plant monitoring system developed as a Bachelor of Engineering Final Year Project.
+
+This project combines multispectral sensing, environmental monitoring, and machine learning to classify leaf health conditions based on spectral characteristics.
+
+# Repository Structure
+├── Arduino/
+│   └── Sensor acquisition programs
+│
+├── model python code/
+│   └── code for different models
+│
+├── models/
+│   └── Trained learning models for use in reality life
+│
+├── Test result/
+│   └── Validation results
+│
+├── spectral.xlsx
+│   └── Training dataset
+│
+├── Test spectral.xlsx
+│   └── Validation dataset
+│
+├── desktop_app.py
+│   └── Desktop application source code
+│
+├── desktop_app.spec
+│   └── PyInstaller configuration
+│
+├── Confusion_matrix.py
+│   └── Confusion matrix generation
+│
+└── picture.py
+    └── leaf state generation figure
+    
+# Download and Run
+Ready-to-Use Application
+
+Download:
+Leaf Monitoring App v1.0 from the Releases section.
+
+Steps:
+Download dist.zip
+Extract the archive
+Run:
+leaf_monitoring.exe 
+No Python installation required.
